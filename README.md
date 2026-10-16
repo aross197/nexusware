@@ -2,27 +2,43 @@
 
 A modern, conversion-focused landing page for shareware products.
 
+**Live site (after enabling Pages):**  
+https://aross197.github.io/nexusware/
+
+## How to enable GitHub Pages (required)
+
+1. Open: https://github.com/aross197/nexusware/settings/pages
+2. Under **Build and deployment** → **Source**, select **Deploy from a branch**
+3. Branch: **main**  ·  Folder: **/ (root)**
+4. Click **Save**
+
+Wait 1–2 minutes, then visit:  
+**https://aross197.github.io/nexusware/**
+
 ## Features
 
-- Fully responsive design
+- Fully responsive (mobile → desktop)
 - Dark / light mode toggle
 - Product cards with pricing
-- Pricing toggle (one-time / yearly)
+- One-time / Yearly pricing toggle
 - Testimonials & FAQ
-- Download section for macOS / Windows / Linux
+- Download section (macOS / Windows / Linux)
+- Zero dependencies — pure HTML, CSS & JS
 
-## Live Preview
-
-Open `index.html` in your browser or enable GitHub Pages.
-
-## Structure
+## Project structure
 
 ```
-├── index.html
-├── css/styles.css
-└── js/main.js
+├── index.html          # Main landing page
+├── css/styles.css      # All styles + dark mode
+├── js/main.js          # Theme, menu, pricing toggle
+├── .nojekyll           # Tells GitHub Pages to skip Jekyll
+└── README.md
 ```
+
+## Local preview
+
+Just open `index.html` in any browser.
 
 ## License
 
-MIT — feel free to use and modify.
+MIT — free to use and modify.
